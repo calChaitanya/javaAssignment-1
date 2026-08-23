@@ -44,7 +44,7 @@ MySQL should be running, with `calsoft_inventory` DB and tables already created 
 Test it:
 
 ```powershell
-curl "http://localhost:8080/api/inventory/details?startDate=2024-01-01&endDate=2024-12-31"
+curl "http://localhost:8081/api/inventory/details?startDate=2024-01-01&endDate=2024-12-31"
 ```
 
 ## Key learnings
